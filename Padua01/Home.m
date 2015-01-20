@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Smartplace. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Home.h"
 
-@interface ViewController ()
+@interface Home ()
 
 @end
 
-@implementation ViewController
+@implementation Home
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btn1Pressed:(id)sender
+{
+    self.lblWelcome.text = @"Padua";    
+}
+
+- (IBAction)btn2Pressed:(id)sender
+{
+    self.lblWelcome.text = @"Walter";
+}
 @end

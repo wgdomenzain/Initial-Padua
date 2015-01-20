@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Home : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *lblWelcome;
+
+
+- (IBAction)btn1Pressed:(id)sender;
+- (IBAction)btn2Pressed:(id)sender;
 
 @end
 
